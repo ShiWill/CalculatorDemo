@@ -242,7 +242,6 @@
                         <constraints>
                             <constraint firstItem="koN-Tn-5Ss" firstAttribute="leading" secondItem="6HZ-QG-6en" secondAttribute="trailing" constant="1" id="0ec-LR-oPs"/>
                             <constraint firstItem="8tA-Vn-NJe" firstAttribute="top" secondItem="Rqn-7i-8tY" secondAttribute="bottom" constant="1" id="2IZ-kO-GdO"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="SlA-dP-pgh" secondAttribute="trailing" constant="-16" id="2lq-EL-y5F"/>
                             <constraint firstItem="4PQ-HP-KAK" firstAttribute="top" secondItem="c1C-Z9-dAZ" secondAttribute="top" id="395-5w-Jhl"/>
                             <constraint firstItem="8tA-Vn-NJe" firstAttribute="height" secondItem="Rqn-7i-8tY" secondAttribute="height" id="3or-ej-1Lw"/>
                             <constraint firstItem="NGF-vB-Cwa" firstAttribute="top" secondItem="Icf-Zl-eEc" secondAttribute="top" id="4EF-MU-nHx"/>
