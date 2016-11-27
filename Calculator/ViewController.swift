@@ -84,9 +84,13 @@ class ViewController: UIViewController {
     
     @IBAction func deleteNum(_ sender: UIButton) {
         if isInputing {
-            let origin: String = screenLabel.text!
-            let endIndex = origin.index(origin.startIndex, offsetBy: origin.characters.count-1)
-            screenLabel.text = origin.substring(to: endIndex)
+            if (screenLabel.text?.characters.count)! > 1 {
+                let origin: String = screenLabel.text!
+                let endIndex = origin.index(origin.startIndex, offsetBy: origin.characters.count-1)
+                screenLabel.text = origin.substring(to: endIndex)
+            } else {
+                screenLabel.text = "0"
+            }
         }
     }
     
